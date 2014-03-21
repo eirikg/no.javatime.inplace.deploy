@@ -2,7 +2,7 @@
 <feature
       id="no.javatime.inplace.feature"
       label="InPlace Activator"
-      version="0.1.7.201403212327"
+      version="0.1.7.qualifier"
       provider-name="Lingo Norge"
       os="linux,macosx,win32"
       ws="carbon,gtk,motif,win32"
@@ -10,7 +10,7 @@
       arch="ia64,ppc,x86,x86_64">
 
    <description url="http://javatime.no/blog/inplace-activator-overview/">
-      InPlace Activator Bundle Manager.
+      InPlace Bundle Activator.
    </description>
 
    <copyright url="http://www.example.com/copyright">
@@ -159,84 +159,97 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
    </url>
 
    <requires>
+      <import plugin="org.eclipse.osgi.services"/>
       <import plugin="org.eclipse.ui"/>
       <import plugin="org.eclipse.core.runtime"/>
       <import plugin="org.eclipse.jdt.core"/>
-      <import plugin="org.eclipse.osgi.services"/>
       <import plugin="org.eclipse.debug.ui"/>
       <import plugin="org.eclipse.pde.core"/>
       <import plugin="org.eclipse.jdt.ui"/>
       <import plugin="org.eclipse.jdt.launching"/>
-      <import plugin="org.eclipse.equinox.common"/>
       <import plugin="org.eclipse.ui.ide"/>
       <import plugin="org.eclipse.ui.navigator"/>
       <import plugin="org.eclipse.pde.ui"/>
       <import plugin="org.eclipse.ui.console"/>
       <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.osgi"/>
+      <import plugin="org.eclipse.equinox.preferences"/>
    </requires>
-
-   <plugin
-         id="no.javatime.inplace"
-         os="linux,macosx,win32"
-         ws="carbon,gtk,motif,win32"
-         nl="en_US"
-         arch="ia64,ppc,x86,x86_64"
-         download-size="326"
-         install-size="326"
-         version="0.1.7.201403212327"
-         unpack="false"/>
 
    <plugin
          id="no.javatime.inplace.source"
          download-size="0"
          install-size="0"
-         version="0.1.7.201403212327"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace.ui"
-         os="linux,macosx,win32"
-         ws="carbon,gtk,motif,win32"
-         nl="en_US"
-         arch="ia64,ppc,x86,x86_64"
-         download-size="250"
-         install-size="250"
-         version="0.1.7.201403212327"
+         version="0.0.0"
          unpack="false"/>
 
    <plugin
          id="no.javatime.inplace.ui.source"
          download-size="0"
          install-size="0"
-         version="0.1.7.201403212327"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.util"
-         os="linux,macosx,win32"
-         ws="carbon,gtk,motif,win32"
-         nl="en_US"
-         arch="ia64,ppc,x86,x86_64"
-         download-size="200"
-         install-size="200"
-         version="0.1.7.201403212327"
+         version="0.0.0"
          unpack="false"/>
 
    <plugin
          id="no.javatime.util.source"
          download-size="0"
          install-size="0"
-         version="0.1.7.201403212327"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="no.javatime.inplace.pl.preferences.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="no.javatime.inplace.dl.preferences.source"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="no.javatime.inplace.dl.preferences"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="no.javatime.inplace.pl.preferences"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="no.javatime.inplace"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
          unpack="false"/>
 
    <plugin
          id="no.javatime.inplace.help"
-         os="linux,macosx,win32"
-         ws="carbon,gtk,motif,win32"
-         nl="en_US"
-         arch="ia64,ppc,x86,x86_64"
-         download-size="1510"
-         install-size="1850"
-         version="0.1.5.201403212327"/>
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="no.javatime.inplace.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="no.javatime.util"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>

@@ -3,8 +3,5 @@
    <description name="InPlace Activator" url="http://javatime.no/updates">
       InPlace Activator update site
    </description>
-   <feature url="features/no.javatime.inplace.feature_0.1.7.201403081217.jar" id="no.javatime.inplace.feature" version="0.1.7.201403081217" os="linux,macosx,win32" ws="carbon,gtk,motif,win32" nl="en_US" arch="ia64,ppc,x86,x86_64">
-      <category name="no.javatime.inplace.category"/>
-   </feature>
    <category-def name="no.javatime.inplace.category" label="InPlace Activator features"/>
 </site>
