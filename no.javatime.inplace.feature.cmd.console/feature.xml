@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="no.javatime.inplace.feature"
-      label="InPlace Activator Feature"
-      version="0.2.0.qualifier"
+      id="no.javatime.inplace.feature.cmd.console"
+      label="Bundle Project Command Console Provider Feature"
+      version="0.0.1.qualifier"
       provider-name="Lingo Norge"
       os="linux,macosx,win32"
-      ws="carbon,gtk,motif,win32"
+      ws="carbon,gtk,motif,win3"
       nl="en_US"
       arch="ia64,ppc,x86,x86_64">
 
@@ -159,173 +159,19 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
    </url>
 
    <requires>
-      <import plugin="org.eclipse.osgi.services"/>
+      <import plugin="org.eclipse.core.runtime" version="3.8.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.core" version="3.8.3" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.pde.core" version="3.8.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.resources" version="3.8.1" match="greaterOrEqual"/>
+      <import plugin="no.javatime.inplace"/>
+      <import plugin="no.javatime.inplace.dl.preferences"/>
+      <import plugin="no.javatime.inplace.extender"/>
+      <import plugin="no.javatime.inplace.region"/>
       <import plugin="org.eclipse.osgi"/>
-      <import plugin="org.eclipse.equinox.preferences"/>
-      <import plugin="org.eclipse.ui"/>
-      <import plugin="org.eclipse.core.runtime"/>
-      <import plugin="org.eclipse.jdt.core"/>
-      <import plugin="org.eclipse.debug.ui"/>
-      <import plugin="org.eclipse.pde.core"/>
-      <import plugin="org.eclipse.ltk.core.refactoring"/>
-      <import plugin="org.eclipse.ui.ide"/>
-      <import plugin="org.eclipse.jdt.ui"/>
-      <import plugin="org.eclipse.ui.navigator"/>
-      <import plugin="org.eclipse.pde.ui"/>
-      <import plugin="org.eclipse.core.resources"/>
-      <import plugin="com.ibm.icu"/>
-      <import plugin="org.eclipse.ui.console"/>
-      <import plugin="org.eclipse.core.filesystem" version="1.3.200" match="greaterOrEqual"/>
    </requires>
 
    <plugin
-         id="no.javatime.inplace.source"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace.ui.source"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.util.source"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace.pl.preferences.source"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace.dl.preferences.source"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace.extender.source"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace.log.source"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace.pl.dependencies.source"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace.region.source"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace.pl.console.source"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="no.javatime.inplace.cmd.console.source"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace.dl.preferences"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace.pl.preferences"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace.help"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
-
-   <plugin
-         id="no.javatime.inplace.ui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.util"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace.extender"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace.log"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace.pl.dependencies"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace.region"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="no.javatime.inplace.pl.console"
          download-size="0"
          install-size="0"
          version="0.0.0"
