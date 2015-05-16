@@ -2,7 +2,7 @@
 <feature
       id="no.javatime.inplace.feature.cmd.console"
       label="Bundle Project Command Console Provider Feature"
-      version="0.0.1.qualifier"
+      version="0.0.2.qualifier"
       provider-name="Lingo Norge"
       os="linux,macosx,win32"
       ws="carbon,gtk,motif,win3"

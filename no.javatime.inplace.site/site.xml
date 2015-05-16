@@ -12,5 +12,8 @@
    <feature url="features/no.javatime.inplace.feature_0.2.1.201412031642.jar" id="no.javatime.inplace.feature" version="0.2.1.201412031642" os="linux,macosx,win32" ws="carbon,gtk,motif,win32" nl="en_US" arch="ia64,ppc,x86,x86_64">
       <category name="no.javatime.inplace.category"/>
    </feature>
+   <feature url="features/no.javatime.inplace.feature_0.2.2.201505101809.jar" id="no.javatime.inplace.feature" version="0.2.2.201505101809" os="linux,macosx,win32" ws="carbon,gtk,motif,win32" nl="en_US" arch="ia64,ppc,x86,x86_64">
+      <category name="no.javatime.inplace.category"/>
+   </feature>
    <category-def name="no.javatime.inplace.category" label="InPlace Activator Category"/>
 </site>
