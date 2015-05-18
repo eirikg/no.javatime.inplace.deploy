@@ -2,7 +2,7 @@
 <feature
       id="no.javatime.inplace.feature"
       label="InPlace Activator Feature"
-      version="0.2.4.qualifier"
+      version="0.2.5.qualifier"
       provider-name="Lingo Norge"
       os="linux,macosx,win32"
       ws="carbon,gtk,motif,win32"
