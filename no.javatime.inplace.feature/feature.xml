@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="no.javatime.inplace.feature"
-      label="InPlace Activator Feature"
-      version="0.2.5.qualifier"
+      label="InPlace Bundle Activator Feature"
+      version="0.2.6.qualifier"
       provider-name="Lingo Norge"
       os="linux,macosx,win32"
       ws="carbon,gtk,motif,win32"
@@ -10,11 +10,11 @@
       arch="ia64,ppc,x86,x86_64">
 
    <description url="http://javatime.no/blog/inplace-activator-overview/">
-      InPlace Bundle Activator.
+      InPlace Bundle Activator - Run and update bundles in-place on development and target platforms
    </description>
 
    <copyright url="http://www.example.com/copyright">
-      Copyright (c) 2011, 2013 Lingo Norge as and others
+      Copyright (c) 2011, 2015 Lingo Norge as and others
 All rights reserved. This program and the accompanying materials
 are made available under the terms of the Eclipse Public License
 v1.0
@@ -152,10 +152,11 @@ Java and all Java-based trademarks are trademarks of Oracle Corporation in the U
    </license>
 
    <url>
-      <update label="InPlace Activator Update Site" url="http://javatime.no/updates"/>
+      <update label="InPlace Bundle Activator Update Site" url="http://javatime.no/updates"/>
       <discovery label="InPlace Activator Landing Site" url="http://javatime.no"/>
       <discovery label="Blogs about the InPlace Activator" url="http://javatime.no/blog"/>
       <discovery label="InPlace Activator Overview" url="http://javatime.no/blog/inplace-activator-overview/"/>
+      <discovery label="InPlace Activator Download Site" url="http://javatime.no/blog/download-2/"/>
    </url>
 
    <requires>

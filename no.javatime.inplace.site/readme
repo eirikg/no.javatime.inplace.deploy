@@ -1,0 +1,28 @@
+
+Steps to create a new version:
+
+With this method it is possible to install the new version or to update from version 0.1.9 and onwards to 
+the latest version installed using these steps.
+ 
+(1) Increment version number for each bundle changed since previous version
+(2) Perform a Clean Build
+(3) Increment version number in feature file(s)
+(4) Delete the following files in the site project before building a new version 
+	- All jar files in the plugin folder 
+	- All jar files in the features folder
+	- Delete artifacts.jar and content.jar in the root folder 
+(5) Select add feature from the Site Map tab in site.xml and add the feature file(s) from (2)
+	- Remember to add the feature file(s) as a subordinate to the no.javatime.interface.category category
+	- Remember to NOT remove earlier features in the category in Site Map tab 
+	  (necessary for to be able to update from an earlier version) 
+(6) Select Build all to generate the site
+(7) On the InPlace web site move the current version from the updates folder to the test folder
+(8) Upload the generated site to the updates folder
+(9) Increment the version number on javatime.no site and the Eclipse Marketplace 
+(10) Test install and update (from the previous to the new version)
+(11) Commit all files to git and tag the new version  
+
+
+Misc:
+ To show more than the last version on the update site the plugins and feature jar from earlier versions must be uploaded to the update site. 
+ See: https://code.google.com/p/metaedit-plugin-for-eclipse/wiki/publishingPlugin for an example.
